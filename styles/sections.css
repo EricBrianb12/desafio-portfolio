@@ -1,1 +1,40 @@
-#projects {}
+#projects {
+  header {
+    text-align: center;
+    padding-block: 72px 56px;
+
+    h3 {
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+  }
+
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+
+    .card {
+      max-width: 330px;
+      padding: 12px 12px 17px 12px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      border: 1.5px solid var(--gray-300);
+      transition: .2s ease-in-out;
+
+      img {
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-top: 8px;
+      }
+    }
+
+    .card:hover {
+      border: 1px solid var(--gray-400)
+    }
+  }
+}
