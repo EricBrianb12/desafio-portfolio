@@ -41,3 +41,36 @@
     }
   }
 }
+
+.bg-services {
+  width: 100%;
+  background-color: var(--gray-100);
+  padding-block: 88px 120px;
+}
+
+#services {
+
+  .services-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    .service-item {
+      width: 280px;
+      padding: 20px;
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+      display: grid;
+
+      img {
+        margin-bottom: 20px;
+      }
+
+      span {
+        margin-bottom: 8px;
+      }
+
+    }
+  }
+
+}
