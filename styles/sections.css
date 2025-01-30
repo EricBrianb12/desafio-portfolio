@@ -1,7 +1,10 @@
 #projects {
+
+  padding-block: 72px 144px;
+
   header {
     text-align: center;
-    padding-block: 72px 56px;
+    margin-bottom: 56px;
 
     h3 {
       color: var(--red);
