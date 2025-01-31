@@ -8,7 +8,6 @@
   }
 }
 
-
 #projects {
   padding-block: 72px 144px;
 
@@ -24,7 +23,7 @@
       background-color: var(--gray-300);
       border-radius: 12px;
       border: 1.5px solid var(--gray-300);
-      transition: .2s ease-in-out;
+      transition: .3s ease-in-out;
 
       img {
         border-radius: 8px;
@@ -74,3 +73,5 @@
   }
 
 }
+
+#contact {}
