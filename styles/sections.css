@@ -74,4 +74,54 @@
 
 }
 
-#contact {}
+.bg-contact {
+  margin-top: 128px;
+  height: 700px;
+  background: url("../assets/images/Background_Contacts.png") center no-repeat;
+  background-size: cover;
+}
+
+#contact {
+  .title-info {
+    h3 {
+      color: var(--purple);
+    }
+
+    h2 {
+      padding-block: 8px;
+    }
+  }
+
+  nav {
+    display: grid;
+    margin-inline: auto;
+    max-width: 400px;
+    gap: 16px;
+
+    a {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      border: 1.5px solid var(--gray-300);
+      border-radius: 8px;
+      background-color: var(--gray-300);
+      gap: 12px;
+      position: relative;
+      transition: .3s ease-in-out;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-image: url("../assets/icons/ArrowUpRight.svg");
+        right: 20px;
+      }
+
+      &:hover {
+        border: 1.5px solid var(--blue);
+      }
+    }
+  }
+}

@@ -26,6 +26,7 @@
   --subtitle: 400 20px/120% "Inconsolata", serif;
   --text-md: 400 16px/140% "Maven pro", sans-serif;
   --text-sm: 400 14px/140% "Maven pro", sans-serif;
+  --text-md-b: 600 16px/140% "Maven pro", sans-serif;
 }
 
 body {
@@ -50,4 +51,11 @@ img {
 .container {
   max-width: 1280px;
   margin-inline: auto;
+}
+
+a {
+  cursor: pointer;
+  font: var(--text-md-b);
+  color: var(--gray-600);
+  text-decoration: none;
 }
